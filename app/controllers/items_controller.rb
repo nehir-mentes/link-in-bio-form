@@ -8,4 +8,8 @@ class ItemsController < ApplicationController
   def input
     render({ :template => "item_templates/input" })
   end
+
+  def insert
+    render({ :template => "item_templates/insert" })
+  end
 end
